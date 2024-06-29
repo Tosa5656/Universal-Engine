@@ -103,9 +103,9 @@
       <EnableUAC>false</EnableUAC>
     </Link>
     <PostBuildEvent>
-      <Command>move $(SolutionDir)Bin\$(ProjectName).lib $(SolutionDir)Dependecies\Lib\x64
-move $(SolutionDir)Bin\$(ProjectName).pdb $(SolutionDir)Dependecies\Lib\x64
-move $(SolutionDir)Bin\$(ProjectName).exp $(SolutionDir)Dependecies\Lib\x64</Command>
+      <Command>move $(SolutionDir)Bin\$(ProjectName).lib $(SolutionDir)Dependencies\Lib\x86
+move $(SolutionDir)Bin\$(ProjectName).exp $(SolutionDir)Dependencies\Lib\x86
+move $(SolutionDir)Bin\$(ProjectName).pdb $(SolutionDir)Dependencies\Lib\x86</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -129,9 +129,9 @@ move $(SolutionDir)Bin\$(ProjectName).exp $(SolutionDir)Dependecies\Lib\x64</Com
       <EnableUAC>false</EnableUAC>
     </Link>
     <PostBuildEvent>
-      <Command>move $(SolutionDir)Bin\$(ProjectName).lib $(SolutionDir)Dependecies\Lib\x64
-move $(SolutionDir)Bin\$(ProjectName).pdb $(SolutionDir)Dependecies\Lib\x64
-move $(SolutionDir)Bin\$(ProjectName).exp $(SolutionDir)Dependecies\Lib\x64</Command>
+      <Command>move $(SolutionDir)Bin\$(ProjectName).lib $(SolutionDir)Dependencies\Lib\x86
+move $(SolutionDir)Bin\$(ProjectName).exp $(SolutionDir)Dependencies\Lib\x86
+move $(SolutionDir)Bin\$(ProjectName).pdb $(SolutionDir)Dependencies\Lib\x86</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -151,9 +151,9 @@ move $(SolutionDir)Bin\$(ProjectName).exp $(SolutionDir)Dependecies\Lib\x64</Com
       <EnableUAC>false</EnableUAC>
     </Link>
     <PostBuildEvent>
-      <Command>move $(SolutionDir)Bin\$(ProjectName).lib $(SolutionDir)Dependecies\Lib\x64
-move $(SolutionDir)Bin\$(ProjectName).pdb $(SolutionDir)Dependecies\Lib\x64
-move $(SolutionDir)Bin\$(ProjectName).exp $(SolutionDir)Dependecies\Lib\x64</Command>
+      <Command>move $(SolutionDir)Bin\$(ProjectName).lib $(SolutionDir)Dependencies\Lib\x64
+move $(SolutionDir)Bin\$(ProjectName).exp $(SolutionDir)Dependencies\Lib\x64
+move $(SolutionDir)Bin\$(ProjectName).pdb $(SolutionDir)Dependencies\Lib\x64</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -177,9 +177,9 @@ move $(SolutionDir)Bin\$(ProjectName).exp $(SolutionDir)Dependecies\Lib\x64</Com
       <EnableUAC>false</EnableUAC>
     </Link>
     <PostBuildEvent>
-      <Command>move $(SolutionDir)Bin\$(ProjectName).lib $(SolutionDir)Dependecies\Lib\x64
-move $(SolutionDir)Bin\$(ProjectName).pdb $(SolutionDir)Dependecies\Lib\x64
-move $(SolutionDir)Bin\$(ProjectName).exp $(SolutionDir)Dependecies\Lib\x64</Command>
+      <Command>move $(SolutionDir)Bin\$(ProjectName).lib $(SolutionDir)Dependencies\Lib\x64
+move $(SolutionDir)Bin\$(ProjectName).exp $(SolutionDir)Dependencies\Lib\x64
+move $(SolutionDir)Bin\$(ProjectName).pdb $(SolutionDir)Dependencies\Lib\x64</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
